@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkchartsgouv=self.webpackChunkchartsgouv||[]).push([[65],{8710:s=>{s.exports=JSON.parse('[{"label":"docusaurus","permalink":"/chartsgouv/blog/tags/docusaurus","count":1},{"label":"chartsgouv","permalink":"/chartsgouv/blog/tags/chartsgouv","count":1}]')}}]);

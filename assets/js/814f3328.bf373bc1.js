@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkchartsgouv=self.webpackChunkchartsgouv||[]).push([[535],{5641:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"MDX Blog Post","permalink":"/chartsgouv/blog/mdx-blog-post"},{"title":"Bienvenue","permalink":"/chartsgouv/blog/bienvenue"}]}')}}]);
