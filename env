@@ -1,0 +1,4 @@
+export USE_SSH=true
+export GIT_USER=qleroy
+export GIT_PASS=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
+export CURRENT_BRANCH=gh-pages-src

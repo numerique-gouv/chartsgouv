@@ -1,63 +1,41 @@
-# ChartsGouv : L'outil de visualisation de données de l'État
+# Website
 
-# :construction: Page en construction :construction:
+This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
 
-![Superset | Ecosystème | Sources de donnees](images/banner.jpg)
+### Installation
 
-### Accès rapides 
+```
+$ yarn
+```
 
-- [Découvrir le projet du programme 10%](https://www.10pourcent.etalab.gouv.fr/projets/chartgouv/)
-- [Documentation utilisateur final](https://docs.chartsgouv.fr)
-- [Comment contribuer](CONTRIBUTING.md)
-- [Documentation technique pour développeurs](https://project.chartsgouv.fr)
-- ...
+### Local Development
 
-- [ ] Ajouter les liens (plateformes, réutilisations, ...)
-- [ ] Ajouter le dépôt Docusaurus de la documentation utilisateur
-- [ ] Ajouter le dépôt mkdocs/bookstack de la documentation technique
-- [ ] Ajouter le dépôt du thème ChartsGouv-DSFR
-- [ ] Rédiger le CONTRIBUTING.md
-- [ ] ...
+```
+$ yarn start
+```
 
+This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
 
-### Cas d'usages
+### Build
 
-| Nom | Sources de donnees | Publié / Brouillon | Description / Enjeux | Auteurs |
-| -------- | -------- | -------- | ------- | ------|
-| Etat 4001 | [Lien data.gouv](https://www.data.gouv.fr/fr/datasets/bases-statistiques-communale-et-departementale-de-la-delinquance-enregistree-par-la-police-et-la-gendarmerie-nationales/)| Lien vers le tableau de bord| | Quentin Leroy|
-| URSSAF TI | | | | |
-| SIS       | | | | |
-| RSU/BDS   | | | | |
-| ...       | | | | |
+```
+$ yarn build
+```
 
-### Fiches utilisateur final : 
- 
-| Nom | Description | Publié / Brouillon | Auteurs |
-| -------- | -------- | -------- | ------- |
-| Cartographie France  | Comment concevoir une cartographie interactive avec des données à l'échelle d'un département ou d'une région | En cours de rédaction | Quentin Leroy |
-| Déposer un fichier Excel (xlsx ou csv) | Comment ajouter des données issues d'un classeur Excel ou d'un fichier CSV. | En cours de redaction | ...|
-| Export d'un tableau de bord | ...| | |
-| Export d'un graphique | ...| | |
-| ... | | | |
+This command generates static content into the `build` directory and can be served using any static contents hosting service.
 
-### Articles techniques
+### Deployment
 
-| Nom | Description | Publié / Brouillon | Auteurs |
-| -------- | -------- | -------- | ------- |
-| Traductions françaises | Comment contribuer aux traductions en français | En cours de rédaction | Quentin Leroy |
-| Palettes de couleurs | Comment ajouter de nouvelles palettes de couleurs pour les graphiques | En cours de rédaction | ...|
-| Comment déployer et configurer une instance de Superset sur un cluster Kubernetes | ...| En cours de redaction | |
-| Comment appliquer le thème ChartsGouv-DSFR | ...| | |
-| Comment modifier le thème pour votre organisation | ...| ||
-| Comment développer un plugin pour un nouveau type de graphique (e.g. cartographie personnalisée) | ...| ||
-| Comment développer un connecteur à une source de données non supportée (e.g. classeurs sur OnlyOffice) | ...| ||
-| ... | | | |
+Using SSH:
 
+```
+$ USE_SSH=true yarn deploy
+```
 
+Not using SSH:
 
-### Initiatives Superset dans la Fonction publique
+```
+$ GIT_USER=<Your GitHub username> yarn deploy
+```
 
-| Nom | Description | Utilisateurs | Finalité | Lien externe |
-| -------- | -------- | -------- | ------- | ------- |
-| SSPCloud     | ...     |      |     | |
-| Ministère de ...     | ...     |      |     | |
+If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
