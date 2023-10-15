@@ -57,7 +57,15 @@ const Users: User[] = [
     source: 'https://chartsgouv.lab.sspcloud.fr/superset/dashboard/bulloterie/?native_filters_key=nBo82abYlnD5I9pjBKlbGAUTQ67_SSKl1wTPhQwrMpVGAwgr7TC9AoOrweyNLBZp',
     tags: ['favorite', 'sspcloud',],
   },
-
+  {
+    title: 'SILL Socle Interministériel des Logiciels Libres',
+    description:
+      'Dataviz des données du Socle Interministériel des Logiciels Libres (SILL). Ingestion des données avec DuckDB.',
+    preview: require('./showcase/dataviz-sill.png'),
+    website: 'https://chartsgouv3.lab.sspcloud.fr/superset/dashboard/sill',
+    source: 'https://chartsgouv.lab.sspcloud.fr/superset/dashboard/sill',
+    tags: ['favorite', 'sspcloud', 'datagouv'],
+  },
   /*
   Pro Tip: add your site in alphabetical order.
   Appending your site here (at the end) is more likely to produce Git conflicts.
