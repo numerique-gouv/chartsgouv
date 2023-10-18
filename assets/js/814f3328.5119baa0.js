@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkchartsgouv=self.webpackChunkchartsgouv||[]).push([[535],{5641:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Bienvenue","permalink":"/chartsgouv/blog/bienvenue"}]}')}}]);

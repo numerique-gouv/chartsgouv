@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkchartsgouv=self.webpackChunkchartsgouv||[]).push([[403],{2865:s=>{s.exports=JSON.parse('{"permalink":"/chartsgouv/blog/tags/docusaurus","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
