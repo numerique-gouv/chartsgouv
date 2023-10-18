@@ -13,12 +13,12 @@ const FeatureList = [
     ),
   },
   {
-    title: 'Tableaux de bord',
-    Svg: require('@site/static/img/banner/my-display_banner.svg').default,
+    title: 'Apache Superset',
+    Svg: require('@site/static/img/logos/superset-logo-horiz-apache.svg').default,
     description: (
       <>
-        Tableaux de bord interactifs résumant des données en un clin d'oeil, 
-        un outil d'aide à la décision.
+        Apache Superset est l'outil open source de référence pour la visualisation de données et les tableaux de bord.
+        ChartsGouv adapte Superset à la charte graphique de l'État, apporte des graphiques supplémentaires et se connecte aux sources de données des agents publics.
       </>
     ),
   },
@@ -27,7 +27,7 @@ const FeatureList = [
     Svg: require('@site/static/img/banner/magnifying-glass_banner.svg').default,
     description: (
       <>
-        Insérer un texte ici.
+        Exploration et analyse de données en libre service.
       </>
     ),
   },
@@ -36,17 +36,8 @@ const FeatureList = [
     Svg: require('@site/static/img/logos/10pourcent.svg').default,
     description: (
       <>
-        La communauté des talents de la data de l'Etat.
+        La communauté des talents de la data de l'État.
         Nos valeurs : « Partage, Ouverture, Curiosité »
-      </>
-    ),
-  },
-  {
-    title: 'Apache Superset',
-    Svg: require('@site/static/img/logos/superset-logo-horiz-apache.svg').default,
-    description: (
-      <>
-        Apache Superset est l'outil open source de référence pour la visualisation de données et les tableaux de bord.
       </>
     ),
   },
