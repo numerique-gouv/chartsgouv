@@ -66,6 +66,24 @@ const Users: User[] = [
     source: 'https://chartsgouv.lab.sspcloud.fr/superset/dashboard/sill',
     tags: ['favorite', 'sspcloud', 'datagouv'],
   },
+  {
+    title: 'Recensement 2020 Fichier Détail Individus localisés au Canton-ou-Ville',
+    description:
+      'Exploration des données du recensement 2020 publiés sous format Parquet pour le Fichier Détail Individus localisés au Canton-ou-ville. Ingestion des données avec DuckDB. Croisement avec le Code Officiel Géographique (COG).',
+    preview: require('./showcase/dataviz-recensement2020-fd-indcvi.png'),
+    website: 'https://nec.qstar.fr/superset/dashboard/recensement2020/?standalone=2',
+    source: 'https://nec.qstar.fr/superset/dashboard/recensement2020/?standalone=2',
+    tags: ['favorite', 'opendata', 'datagouv'],
+  },
+  {
+    title: 'Fréquentation des musées de France',
+    description:
+      'Exploration des données publiées par le Ministère de la Culture concernant la fréquentation des musées de France.',
+    preview: require('./showcase/dataviz-musees.png'),
+    website: 'https://nec.qstar.fr/superset/dashboard/culture/?standalone=2',
+    source: 'https://nec.qstar.fr/superset/dashboard/culture/?standalone=2',
+    tags: ['favorite', 'opendata', 'datagouv'],
+  },
   /*
   Pro Tip: add your site in alphabetical order.
   Appending your site here (at the end) is more likely to produce Git conflicts.
