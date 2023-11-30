@@ -29,7 +29,7 @@ Liens utiles:
 
 - [Repo github](https://github.com/etalab-ia/chartsgouv)
 - [Découvrir des cas d'usage](https://etalab-ia.github.io/chartsgouv/showcase)
-- [Replay de l'intervention lors de l'événement Datarama]( https://www.youtube.com/watch?v=xvrr5X70puo&t=22648s) 
+- [Replay de l'intervention lors de l'événement Datarama](https://www.youtube.com/watch?v=A1SJ5eq3ew0) 
 
 ![ChartsGouv Iconographie diverse](./banner.jpg)
 ![ChartsGouv Iconographie diverse](./banner.png)
